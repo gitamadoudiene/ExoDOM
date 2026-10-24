@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 3 - Carte de profil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="profile-card">
+
+        <div class="profile-header">
+            <img
+                src="https://i.pravatar.cc/180?img=12"
+                alt="Photo de profil d'Amadou"
+                class="profile-img"
+            >
+
+            <span class="status">Disponible</span>
+        </div>
+
+        <h1>Amadou Diallo</h1>
+        <p class="job">Développeur FullStack</p>
+
+        <div class="separator"></div>
+
+        <div class="stats">
+            <div>
+                <strong>12</strong>
+                <span>Projets</span>
+            </div>
+
+            <div>
+                <strong>3</strong>
+                <span>Années</span>
+            </div>
+
+            <div>
+                <strong>8</strong>
+                <span>Technologies</span>
+            </div>
+        </div>
+
+        <div id="description" class="description hidden">
+            <h2>À propos de moi</h2>
+
+            <p>
+                Passionné par le développement web, je conçois
+                des applications modernes avec HTML, CSS,
+                JavaScript, React et Node.js. J'aime également
+                partager mes connaissances et accompagner
+                les débutants dans leur apprentissage.
+            </p>
+        </div>
+
+        <button id="profileBtn" onclick="toggleProfil()">
+            Voir le profil
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
